@@ -90,6 +90,8 @@ Compile o arquivo no terminal usando o comando `gcc Ex8.c -o Ex8`
 
 Após compilado, rode o código utilizando o comando `./Ex8`
 
+OBS: A matriz ja foi pré definida no código, usuário não precisa preencha-la
+
 ### Ex9
 
 ![alt](/Lab01b/assets/Ex9.png)
@@ -106,6 +108,8 @@ Compile o arquivo no terminal usando o comando `gcc Ex10.c -o Ex10`
 
 Após compilado, rode o código utilizando o comando `./Ex10`
 
+OBS: A matriz ja foi pré definida, assim como o valor da multiplicação
+
 ### Ex11
 
 ![alt](/Lab01b/assets/Ex11.png)
@@ -113,6 +117,8 @@ Após compilado, rode o código utilizando o comando `./Ex10`
 Compile o arquivo no terminal usando o comando `gcc Ex11.c -o Ex11`
 
 Após compilado, rode o código utilizando o comando `./Ex11`
+
+OBS: A matriz ja foi pré definida no código, o usuário não precisa digitar os valores
 
 ### Ex12
 
@@ -122,6 +128,8 @@ Compile o arquivo no terminal usando o comando `gcc Ex12.c -o Ex12`
 
 Após compilado, rode o código utilizando o comando `./Ex12`
 
+OBS: O caracter procurado foi o "c" e ja foi definido no código, o usuário não precisa digitar
+
 ### Ex13
 
 ![alt](/Lab01b/assets/Ex13.png)
@@ -130,6 +138,8 @@ Compile o arquivo no terminal usando o comando `gcc Ex13.c -o Ex13`
 
 Após compilado, rode o código utilizando o comando `./Ex13`
 
+OBS: O caracter removido foi o da posição 20, e ja foi definido no código, som o usuário precisar digitar
+
 ### Ex14
 
 ![alt](/Lab01b/assets/Ex14.png)
@@ -137,3 +147,5 @@ Após compilado, rode o código utilizando o comando `./Ex13`
 Compile o arquivo no terminal usando o comando `gcc Ex14.c -o Ex14`
 
 Após compilado, rode o código utilizando o comando `./Ex14`
+
+OBS: O caracter "o" foi inserido na posição 20
