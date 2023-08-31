@@ -48,14 +48,8 @@ int main() {
 
     sub_neg(matriz_princ, num_lin, num_col);
 
-    printf("\nMatriz após substituir os números negativos pelo seu módulo:\n");
+    printf("\nMatriz após as mudanças:\n");
     printa_matriz(matriz_princ, num_lin, num_col);
-
-    // Libera a memória alocada para a matriz
-    for (int i = 0; i < num_lin; i++) {
-        revolucao(matriz_princ[i]);
-    }   
-    revolucao(matriz_princ);
 
     return 0;
 }
