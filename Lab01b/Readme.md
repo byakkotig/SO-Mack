@@ -32,7 +32,7 @@ OBS: A matriz ja esta com os valores prontos, não é preciso o usuário digitar
 
 ### Ex2 
 
-![alt](/assets/Ex2.png)
+![alt](/Lab01b/assets/Ex2.png)
 
 Compile o arquivo no terminal usando o comando `gcc Ex2.c -o Ex2`
 
@@ -42,7 +42,7 @@ OBS: Os valores das notas ja foram pré definidas no código, não sendo necess�
 
 ### Ex3
  
-![alt](/assets/Ex3.png)
+![alt](/Lab01b/assets/Ex3.png)
 
 Compile o arquivo no terminal usando o comando `gcc Ex3.c -o Ex3`
 
@@ -50,7 +50,7 @@ Após compilado, rode o código utilizando o comando `./Ex3`
 
 ### Ex4
 
-![alt](/assets/Ex4.png)
+![alt](/Lab01b/assets/Ex4.png)
 
 Compile o arquivo no terminal usando o comando `gcc Ex4.c -o Ex4`
 
@@ -60,7 +60,7 @@ OBS: Os nomes ja foram definidos no código, não sendo necessário o usuário d
 
 ### Ex5
 
-![alt](/assets/Ex5.png)
+![alt](/Lab01b//assets/Ex5.png)
 
 Compile o arquivo no terminal usando o comando `gcc Ex5.c -o Ex5`
 
@@ -68,7 +68,7 @@ Após compilado, rode o código utilizando o comando `./Ex5`
 
 ### Ex6
 
-![alt](/assets/Ex6.png)
+![alt](/Lab01b/assets/Ex6.png)
 
 Compile o arquivo no terminal usando o comando `gcc Ex6.c -o Ex6`
 
@@ -76,11 +76,15 @@ Após compilado, rode o código utilizando o comando `./Ex6`
 
 ### Ex7
 
+![alt](/Lab01b/assets/Ex7.png)
+
 Compile o arquivo no terminal usando o comando `gcc Ex7.c -o Ex7`
 
 Após compilado, rode o código utilizando o comando `./Ex7`
 
 ### Ex8
+
+![alt](/Lab01b/assets/Ex8.png)
 
 Compile o arquivo no terminal usando o comando `gcc Ex8.c -o Ex8`
 
@@ -88,11 +92,15 @@ Após compilado, rode o código utilizando o comando `./Ex8`
 
 ### Ex9
 
+![alt](/Lab01b/assets/Ex9.png)
+
 Compile o arquivo no terminal usando o comando `gcc Ex9.c -o Ex9`
 
 Após compilado, rode o código utilizando o comando `./Ex9`
 
 ### Ex10
+
+![alt](/Lab01b/assets/Ex10.png)
 
 Compile o arquivo no terminal usando o comando `gcc Ex10.c -o Ex10`
 
@@ -100,11 +108,15 @@ Após compilado, rode o código utilizando o comando `./Ex10`
 
 ### Ex11
 
+![alt](/Lab01b/assets/Ex11.png)
+
 Compile o arquivo no terminal usando o comando `gcc Ex11.c -o Ex11`
 
 Após compilado, rode o código utilizando o comando `./Ex11`
 
 ### Ex12
+
+![alt](/Lab01b/assets/Ex12.png)
 
 Compile o arquivo no terminal usando o comando `gcc Ex12.c -o Ex12`
 
@@ -112,11 +124,15 @@ Após compilado, rode o código utilizando o comando `./Ex12`
 
 ### Ex13
 
+![alt](/Lab01b/assets/Ex13.png)
+
 Compile o arquivo no terminal usando o comando `gcc Ex13.c -o Ex13`
 
 Após compilado, rode o código utilizando o comando `./Ex13`
 
 ### Ex14
+
+![alt](/Lab01b/assets/Ex14.png)
 
 Compile o arquivo no terminal usando o comando `gcc Ex14.c -o Ex14`
 
