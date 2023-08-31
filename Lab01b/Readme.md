@@ -22,7 +22,7 @@ Usando o `git`, clone o repositório usando o seguinte comando:
 
 ### Ex1 
 
-![alt](/assets/Ex1.png)
+![alt](/Lab01b/assets/Ex1.png)
 
 Compile o arquivo no terminal usando o comando `gcc Ex1.c -o Ex1`
 
