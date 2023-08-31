@@ -42,11 +42,15 @@ OBS: Os valores das notas ja foram pré definidas no código, não sendo necess�
 
 ### Ex3
  
+![alt](/assets/Ex3.png)
+
 Compile o arquivo no terminal usando o comando `gcc Ex3.c -o Ex3`
 
 Após compilado, rode o código utilizando o comando `./Ex3`
 
 ### Ex4
+
+![alt](/assets/Ex4.png)
 
 Compile o arquivo no terminal usando o comando `gcc Ex4.c -o Ex4`
 
@@ -56,11 +60,15 @@ OBS: Os nomes ja foram definidos no código, não sendo necessário o usuário d
 
 ### Ex5
 
+![alt](/assets/Ex5.png)
+
 Compile o arquivo no terminal usando o comando `gcc Ex5.c -o Ex5`
 
 Após compilado, rode o código utilizando o comando `./Ex5`
 
 ### Ex6
+
+![alt](/assets/Ex6.png)
 
 Compile o arquivo no terminal usando o comando `gcc Ex6.c -o Ex6`
 
