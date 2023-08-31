@@ -39,7 +39,7 @@ Após compilado, rode o código utilizando o comando `./Ex2`
 OBS: Os valores das notas ja foram pré definidas no código, não sendo necessário o usuário digitar eles, por isso apenas a resposta aparece na execução do código
 
 ### Ex3
-
+ 
 Compile o arquivo no terminal usando o comando `gcc Ex3.c -o Ex3`
 
 Após compilado, rode o código utilizando o comando `./Ex3`
