@@ -22,7 +22,7 @@ Usando o `git`, clone o repositório usando o seguinte comando:
 
 ### Ex1 
 
-![alt](/Lab01b/assets/Ex1.png)
+![alt](/assets/Ex1.png)
 
 Compile o arquivo no terminal usando o comando `gcc Ex1.c -o Ex1`
 
@@ -31,6 +31,8 @@ Após compilado, rode o código utilizando o comando `./Ex1`
 OBS: A matriz ja esta com os valores prontos, não é preciso o usuário digitar os valores, por isso apenas a resposta aparece na execução
 
 ### Ex2 
+
+![alt](/assets/Ex2.png)
 
 Compile o arquivo no terminal usando o comando `gcc Ex2.c -o Ex2`
 
