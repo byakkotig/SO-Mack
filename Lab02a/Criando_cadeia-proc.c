@@ -10,7 +10,7 @@ int main (int argc, char *argv[]) {
         return 1;
 }
 n = atoi(argv[1]);
-printf("Andre: %d", n);
+
 for (i = 1; i < n; i++)
     if (childpid = fork())
         break;
