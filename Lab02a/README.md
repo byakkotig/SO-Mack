@@ -84,6 +84,12 @@ Após compilado, rode o código utilizando o comando `./Criando_cadeia-proc_stdo
 
 # Respostas das perguntas do slide 11
 
-1) Como observado nos prints dos códigos dos slides 10 acima, para valores testados de i, 1000 e 5000, os resultados foram printados ordenadamente.
+1) Rode o programa anterior para valores grandes de n. As
+mensagens sempre estarão ordenadas pelo valor de i? 
 
-2) Após realizar os testes vistos nos prints do slide 10 tanto com stderr quanto com stdout, se o programa anterior utilizasse sys.stdout para escrever as mensagens, não seriam notadas muitas mudanças. Visto que uma das diferenças entre stdout e stderr é que stderr separa as saídas de erro das saídas padrão. Por outro lado, stdout só tem a saída em sua forma padrão.
+    Como observado nos prints dos códigos dos slides 10 acima, para valores testados de i, 1000 e 5000, os resultados foram printados ordenadamente.
+
+2) O que acontece se o programa anterior escreve-se as mensagens
+para sys.stdout, usando print, ao invés de para sys.stderr?
+
+    Após realizar os testes vistos nos prints do slide 10 tanto com stderr quanto com stdout, se o programa anterior utilizasse sys.stdout para escrever as mensagens, não seriam notadas muitas mudanças. Visto que uma das diferenças entre stdout e stderr é que stderr separa as saídas de erro das saídas padrão. Por outro lado, stdout só tem a saída em sua forma padrão.
