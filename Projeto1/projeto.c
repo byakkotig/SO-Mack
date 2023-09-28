@@ -25,7 +25,7 @@ void *transferencia(void *arg)
         conta2 = &from;
     }
 
-    if (conta1->saldo <= 0){ 
+    if (conta1->saldo <= 0 || conta2->saldo <= 0){ 
         erro = 1;
         return (void*)1;
     }
