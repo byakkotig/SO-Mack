@@ -17,6 +17,7 @@ int valor;
 
 void *transferencia(void *arg)
 {
+    if (erro != 0) { return (void*)1; }
     pthread_mutex_lock(&print_mutex);
     conta* conta1 = &from;
     conta* conta2 = &to;
@@ -32,7 +33,7 @@ void *transferencia(void *arg)
     if (conta1->saldo <= valor && conta2->saldo <= valor)
     {
         erro = 2;
-        return (void*)2;
+        return (void*)1;
     }
     if (conta1->saldo >= valor){ 
         conta1->saldo -= valor;
@@ -88,7 +89,7 @@ int main()
     }
 
     for (i = 0; i < num_threads; i++) {
-        if (erro == 0) {
+        if (erro == 0){
             pthread_join(threads[i], NULL);
         }
     }
