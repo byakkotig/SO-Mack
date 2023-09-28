@@ -17,10 +17,10 @@ int valor;
 
 void *transferencia(void *arg)
 {
+    printf("SEXO");
     pthread_mutex_lock(&print_mutex);
     conta* conta1 = &from;
     conta* conta2 = &to;
-    printf("SEXO");
     if (rand() % 2 == 0) {
         conta1 = &to;
         conta2 = &from;
