@@ -6,7 +6,7 @@
 #define MAX_THREADS 100
 
 pthread_mutex_t print_mutex;
-bool saldo_zerado = false;
+int erro = 0;
 
 struct c {
  int saldo;
@@ -24,16 +24,20 @@ void *transferencia(void *arg)
         conta1 = &to;
         conta2 = &from;
     }
-    
+
     if (conta1->saldo <= 0){ 
-        saldo_zerado = true;
+        erro = 1;
         return (void*)1;
     }
     if (conta1->saldo >= valor){ 
         conta1->saldo -= valor;
         conta2->saldo += valor;
     }
-
+    else if (conta2->saldo <= valor)
+    {
+        erro = 2;
+        return (void*)2;
+    }
     printf("Transferência concluída com sucesso!\nSaldo de from: %d\nSaldo de to: %d\n", from.saldo, to.saldo);
     pthread_mutex_unlock(&print_mutex);
     return (void*)0;
@@ -69,14 +73,18 @@ int main()
             perror("pthread_create");
             exit(1);
         }
-        if (saldo_zerado) {
+        if (erro == 1) {
             printf("O saldo está zerado, não haverão mais transferências.\n");
+            break;
+        }
+        if (erro == 2) {
+            printf("O valor a ser transferido é maior que o saldo de ambas as contas, não haverão mais transferências.\n");
             break;
         }
     }
 
     for (i = 0; i < num_threads; i++) {
-        if (!saldo_zerado) {
+        if (erro == 0) {
             pthread_join(threads[i], NULL);
         }
     }
