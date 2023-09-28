@@ -29,14 +29,18 @@ void *transferencia(void *arg)
         erro = 1;
         return (void*)1;
     }
+    if (conta1->saldo <= valor && conta2->saldo <= valor)
+    {
+        erro = 2;
+        return (void*)2;
+    }
     if (conta1->saldo >= valor){ 
         conta1->saldo -= valor;
         conta2->saldo += valor;
     }
-    else if (conta2->saldo <= valor)
+    else
     {
-        erro = 2;
-        return (void*)2;
+        printf("Valor não pode ser transferido para essa conta, está acima do saldo");
     }
     printf("Transferência concluída com sucesso!\nSaldo de from: %d\nSaldo de to: %d\n", from.saldo, to.saldo);
     pthread_mutex_unlock(&print_mutex);
