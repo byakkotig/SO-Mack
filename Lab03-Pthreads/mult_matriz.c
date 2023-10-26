@@ -31,7 +31,7 @@ void *Pth_math_vect(void *rank) {
 void print_matrix(double **matrix, int rows, int cols) {
     for(int i = 0; i < rows; i++) {
         for(int j = 0; j < cols; j++) {
-            printf("%f ", matrix[i][j]);
+            printf("%.2f ", matrix[i][j]);
         }
         printf("\n");
     }
@@ -39,7 +39,7 @@ void print_matrix(double **matrix, int rows, int cols) {
 
 void print_vector(double *vector, int size) {
     for(int i = 0; i < size; i++) {
-        printf("%f ", vector[i]);
+        printf("%.2f ", vector[i]);
     }
     printf("\n");
 }
@@ -113,7 +113,7 @@ int main() {
 	// Imprimir a matriz resultante
 	printf("Matriz resultante:\n");
 	for(int i = 0; i < m; i++) {
-		printf("%f\n", result[i][0]);
+		printf("%.2f\n", result[i][0]);
 	}
 
 	return 0;
