@@ -4,7 +4,7 @@
 
 int thread_count;
 int n;
-double sum = 0.0;
+double sum;
 
 void* Thread_sum(void* rank) {
     long my_rank = (long) rank;
@@ -33,20 +33,26 @@ int main(int argc, char* argv[]) {
     thread_count = strtol(argv[1], NULL, 10);
     n = strtol(argv[2], NULL, 10);
 
+    if(thread_count > n){
+        printf("Erro: O número de threads não pode ser maior que o número de termos.\n");
+        return -1;
+    }
+
     thread_handles = malloc(thread_count*sizeof(pthread_t));
+    sum = 0.0;
 
     for (thread = 0; thread < thread_count; thread++)
         pthread_create(&thread_handles[thread], NULL, Thread_sum, (void*)thread);
 
-    for (thread = 0; thread < thread_count; thread++)
+    for (thread = 0; thread < thread_count; thread++) {
         pthread_join(thread_handles[thread], NULL);
+    }
 
-    sum = sum * 4.0;
-
-    free(thread_handles);
+    sum = 4.0*sum;
 
     printf("Número de threads: %d\n", thread_count);
-    printf("Valor calculado de pi: %.15f\n", sum);
+    printf("Valor de pi calculado pelo algoritmo: %.15f\n", sum);
 
+    free(thread_handles);
     return 0;
 }

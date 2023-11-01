@@ -23,7 +23,7 @@ Usando o `git`, clone o repositório usando o seguinte comando:
 
 Para compilar os códigos, entre na pasta do projeto e no terminal, utilize o comando `gcc pi_sem_mutex.c -o pi_sem_mutex` e para executá-lo digite o comando `./pi_sem_mutex "numero de threads desejadas" "número de termos desejados"`, como no exemplo abaixo, para executar o programa sem mutex.
 
-![alt](/Lab03-Pthreads_parte2/assets/compilacao1.png)
+![alt](/Lab03-Pthreads-parte2/assets/compilacao1.png)
 
 Utilize o comando `gcc pi_com_mutex.c -o pi_com_mutex` e para executá-lo digite o comando `./pi_com_mutex "numero de threads desejadas" "número de termos desejados`, como no exemplo abaixo, para executar o programa com mutex.
 
@@ -37,7 +37,7 @@ Utilize o comando `gcc pi_com_mutex.c -o pi_com_mutex` e para executá-lo digite
 
 Os resultados obtidos no código sem o uso de Mutex estão mostrados no print abaixo. O log de execução desse código está dentro da pasta do Lab
 
-![alt](/Lab03-Pthreads_parte2/assets/saida1.png)
+![alt](/)
 
 ### Print da saída do código com mutex com valores de entrada 
 
