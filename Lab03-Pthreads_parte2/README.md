@@ -2,7 +2,7 @@
 
 ## Sobre o projeto
 
-Esse projeto consiste em arrumar o código de calculo de PI e fazer outro código para esse calculo utilizando Mutex. Após isso, responder as questões feitas no moodle.
+Esse projeto consiste em arrumar o código de cálculo de PI e depois fazer outro código para esse cálculo utilizando Mutex. Após isso, responder as questões feitas no moodle.
 Este documento contém instruções detalhadas sobre como compilar, executar e verificar os resultados do programa entregue.
 
 Testes foram realizados na plataforma AWS
@@ -35,13 +35,13 @@ Utilize o comando `gcc pi_com_mutex.c -o pi_com_mutex` e para executá-lo digite
 
 ### Print da saída do código sem mutex com valores de entrada (10 e 10) e (100 e 100)
 
-Os resultados obtidos no código sem o uso de mutex estão mostrados no print abaixo. O log de execução desse código está dentro da pasta do Lab
+Os resultados obtidos no código sem o uso de Mutex estão mostrados no print abaixo. O log de execução desse código está dentro da pasta do Lab
 
 ![alt](/Lab03-Pthreads_parte2/assets/saida1.png)
 
 ### Print da saída do código com mutex com valores de entrada 
 
-Os resultados obtidos no código com o uso de mutex estão mostrados no print abaixo. O log de execução desse código está dentro da pasta do Lab
+Os resultados obtidos no código com o uso de Mutex estão mostrados no print abaixo. O log de execução desse código está dentro da pasta do Lab
 
 
 
