@@ -21,13 +21,34 @@ Usando o `git`, clone o repositório usando o seguinte comando:
 
 ## Compilação e Execução
 
-Para compilar os códigos, entre na pasta do projeto e no terminal, utilize o comando `gcc pi_sem_mutex.c -o pi_sem_mutex` e para executá-lo digite o comando `./pi_sem_mutex`, para executar o programa sem mutex.
+Para compilar os códigos, entre na pasta do projeto e no terminal, utilize o comando `gcc pi_sem_mutex.c -o pi_sem_mutex` e para executá-lo digite o comando `./pi_sem_mutex "numero de threads desejadas" "número de termos desejados"`, como no exemplo abaixo, para executar o programa sem mutex.
 
-![alt](/Lab03-Pthreads/assets/compilacao.png)
+![alt](/Lab03-Pthreads_parte2/assets/compilacao1.png)
 
-Utilize o comando `gcc pi_com_mutex.c -o pi_com_mutex` e para executá-lo digite o comando `./pi_com_mutex`, para executar o programa com mutex.
+Utilize o comando `gcc pi_com_mutex.c -o pi_com_mutex` e para executá-lo digite o comando `./pi_com_mutex "numero de threads desejadas" "número de termos desejados`, como no exemplo abaixo, para executar o programa com mutex.
 
-![alt](/Lab03-Pthreads/assets/compilacao.png)
+![alt](/)
 
 ### Prints da execução dos códigos estão tanto na pasta `assets` quanto nas instruções de cada exercicio abaixo
 
+## Resultados Obtidos
+
+### Print da saída do código sem mutex com valores de entrada (10 e 10) e (100 e 100)
+
+Os resultados obtidos no código sem o uso de mutex estão mostrados no print abaixo. O log de execução desse código está dentro da pasta do Lab
+
+![alt](/Lab03-Pthreads_parte2/assets/saida1.png)
+
+### Print da saída do código com mutex com valores de entrada 
+
+Os resultados obtidos no código com o uso de mutex estão mostrados no print abaixo. O log de execução desse código está dentro da pasta do Lab
+
+
+
+## Respostas da perguntas
+
+a) Implemente uma solução utilizando Mutex e compare com a anterior. O que mudou? Por quê?
+
+
+
+b) No final, entregue no README do repositório uma explicação resumida sobre as diferenças entre os valores atingidos. Quais foram as causas das divergências? Por que elas aconteceram?
