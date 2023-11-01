@@ -27,23 +27,23 @@ Para compilar os códigos, entre na pasta do projeto e no terminal, utilize o co
 
 Utilize o comando `gcc pi_com_mutex.c -o pi_com_mutex` e para executá-lo digite o comando `./pi_com_mutex "numero de threads desejadas" "número de termos desejados`, como no exemplo abaixo, para executar o programa com mutex.
 
-![alt](/)
+![alt](/Lab03-Pthreads-parte2/assets/compilacao2.png)
 
 ### Prints da execução dos códigos estão tanto na pasta `assets` quanto nas instruções de cada exercicio abaixo
 
 ## Resultados Obtidos
 
-### Print da saída do código sem mutex com valores de entrada (10 e 10) e (100 e 100)
+### Print da saída do código sem mutex com valores de entrada (10 e 10), (100 e 100), (1000 e 1000) 
 
 Os resultados obtidos no código sem o uso de Mutex estão mostrados no print abaixo. O log de execução desse código está dentro da pasta do Lab
 
-![alt](/)
+![alt](/Lab03-Pthreads-parte2/assets/saida1.png)
 
-### Print da saída do código com mutex com valores de entrada 
+### Print da saída do código com mutex com valores de entrada (10 e 10), (100 e 100), (1000 e 1000)
 
 Os resultados obtidos no código com o uso de Mutex estão mostrados no print abaixo. O log de execução desse código está dentro da pasta do Lab
 
-
+![alt](/Lab03-Pthreads-parte2/assets/saida2.png)
 
 ## Respostas da perguntas
 
