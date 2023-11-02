@@ -49,6 +49,12 @@ Os resultados obtidos no código com o uso de Mutex estão mostrados no print ab
 
 a) Implemente uma solução utilizando Mutex e compare com a anterior. O que mudou? Por quê?
 
-
+O que mudou foi a implementação do mutex na função. O código anterior tinha a condição de corrida. Com a adição do mutex essa condição não ocorre mais.
 
 b) No final, entregue no README do repositório uma explicação resumida sobre as diferenças entre os valores atingidos. Quais foram as causas das divergências? Por que elas aconteceram?
+
+As diferenças entre os valores atingidos foram mínimas. No máximo, o último dígito de alguns resultados aumentou e diminuiu entre 1 e 2.
+
+A principal causa da divergência foi a condição de corrida que ocorre quando o mutex não é implementado.
+
+Elas aconteceram porque a condição de corrida tenta mudar a variável no mesmo momento, sobrescrevendo o valor armazenado antes de esse valor ser impresso e, então, alterando o valor que será impresso.
