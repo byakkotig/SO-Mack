@@ -19,10 +19,25 @@ Usando o `git`, clone o repositório usando o seguinte comando:
 
 Para compilar os códigos, entre na pasta do projeto e no terminal, utilize o comando `gcc escada.c -o escada` e para executá-lo digite o comando `./escada`, como no exemplo abaixo, para executar o programa da escada rolante. O programa irá pedir para o usuario digitar o diretorio e nome do arquivo, então é necessário digita-lo assim: `./input/E_**` em que ** é o numero do arquivo desejado da pasta input.
 
-![alt](/Projeto2/assets)
+![alt](/Projeto2/assets/compilacao.png)
 
 
 ### Prints da execução dos códigos estão tanto na pasta `assets` quanto nas instruções de cada exercicio abaixo
 
 ## Solução e lógica do código
 
+
+
+
+
+
+## Resultados
+
+### Print com teste de input E_1 (Ele retorna o resultado e abaixo o resultado esperado, presente na pasta output).
+
+![alt](/Projeto2/assets/.png)
+
+### Print com teste com input E_17 (Ele retorna o resultado feito pelo código e abaixo o resultado esperado, presente na pasta output).
+
+
+### Print com teste com input E_50 (Ele retorna o resultado e abaixo o resultado esperado, presente na pasta output).
