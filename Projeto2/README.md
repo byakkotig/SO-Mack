@@ -31,13 +31,24 @@ Para compilar os códigos, entre na pasta do projeto e no terminal, utilize o co
 
 
 
-## Resultados
+## Resultados (E_1, E_2, E_4, E_36 e E_50)
 
 ### Print com teste de input E_1 (Ele retorna o resultado e abaixo o resultado esperado, presente na pasta output).
 
-![alt](/Projeto2/assets/.png)
+![alt](/Projeto2/assets/E_1.png)
 
-### Print com teste com input E_17 (Ele retorna o resultado feito pelo código e abaixo o resultado esperado, presente na pasta output).
+### Print com teste com input E_2 (Ele retorna o resultado feito pelo código e abaixo o resultado esperado, presente na pasta output).
 
+![alt](/Projeto2/assets/E_2.png)
+
+### Print com teste com input E_4 (Ele retorna o resultado feito pelo código e abaixo o resultado esperado, presente na pasta output).
+
+![alt](/Projeto2/assets/E_4.png)
+
+### Print com teste com input E_36 (Ele retorna o resultado feito pelo código e abaixo o resultado esperado, presente na pasta output).
+
+![alt](/Projeto2/assets/E_36.png)
 
 ### Print com teste com input E_50 (Ele retorna o resultado e abaixo o resultado esperado, presente na pasta output).
+
+![alt](/Projeto2/assets/E_50.png)
