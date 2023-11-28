@@ -19,7 +19,7 @@ Usando o `git`, clone o repositório usando o seguinte comando:
 
 Para compilar os códigos, entre na pasta do projeto e no terminal, utilize o comando `gcc escada.c -o escada` e para executá-lo digite o comando `./escada`, como no exemplo abaixo, para executar o programa da escada rolante. O programa irá pedir para o usuario digitar o diretorio e nome do arquivo, então é necessário digita-lo assim: `./input/E_**` em que ** é o numero do arquivo desejado da pasta input.
 
-![alt](/Projeto2/assets)
+![alt](/Projeto2/assets/compilacao.png)
 
 
 ### Prints da execução dos códigos estão tanto na pasta `assets` quanto nas instruções de cada exercicio abaixo
@@ -61,3 +61,29 @@ Os dados de entrada são separados nos vetores: tempoAtual e distanciaAtual. Ass
 - Função lerData(char* caminhoArquivo, int* t, int* d, int* n): Esta função lê dados de um arquivo. Ela recebe quatro parâmetros: uma string caminhoArquivo representando o caminho para o arquivo, dois arrays de inteiros t e d para armazenar os tempos de chegada e as direções dos passageiros, e um ponteiro de inteiro n para armazenar o número de passageiros. A função abre o arquivo, lê os dados e armazena-os nos arrays e no inteiro fornecidos.
 
 - Função main(): Esta é a função principal do programa. Ela primeiro pede ao usuário para inserir o caminho para o arquivo contendo os dados. Em seguida, ela chama a função lerData para ler os dados do arquivo. Depois disso, ela chama a função escadaRolante para simular a operação da escada rolante e obter o tempo final em que a escada rolante para. A função então imprime esse tempo. Finalmente, ela abre outro arquivo para ler algum resultado e imprime esse resultado.
+
+
+
+
+
+## Resultados (E_1, E_2, E_4, E_36 e E_50)
+
+### Print com teste de input E_1 (Ele retorna o resultado e abaixo o resultado esperado, presente na pasta output).
+
+![alt](/Projeto2/assets/E_1.png)
+
+### Print com teste com input E_2 (Ele retorna o resultado feito pelo código e abaixo o resultado esperado, presente na pasta output).
+
+![alt](/Projeto2/assets/E_2.png)
+
+### Print com teste com input E_4 (Ele retorna o resultado feito pelo código e abaixo o resultado esperado, presente na pasta output).
+
+![alt](/Projeto2/assets/E_4.png)
+
+### Print com teste com input E_36 (Ele retorna o resultado feito pelo código e abaixo o resultado esperado, presente na pasta output).
+
+![alt](/Projeto2/assets/E_36.png)
+
+### Print com teste com input E_50 (Ele retorna o resultado e abaixo o resultado esperado, presente na pasta output).
+
+![alt](/Projeto2/assets/E_50.png)
