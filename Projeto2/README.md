@@ -27,10 +27,10 @@ Para compilar os códigos, entre na pasta do projeto e no terminal, utilize o co
 ## Solução e lógica do código
 
 ### Solução: 
+
 O programa utiliza tempo para representar os momentos em que os passageiros chegam à escada. E as direções para classificar se a escada rolante irá para cima ou para baixo. E uma variável para representar o número de passageiros na escada rolante.
 
 Os dados de entrada são separados nos vetores: tempoAtual e distanciaAtual. Assim sendo armazenados os valores de chegada e a distância de cada pessoa.
-
 
 #### Variáveis de controle:
 
