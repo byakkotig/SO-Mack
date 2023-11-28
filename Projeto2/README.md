@@ -26,3 +26,38 @@ Para compilar os códigos, entre na pasta do projeto e no terminal, utilize o co
 
 ## Solução e lógica do código
 
+### Solução: 
+O programa utiliza tempo para representar os momentos em que os passageiros chegam à escada. E as direções para classificar se a escada rolante irá para cima ou para baixo. E uma variável para representar o número de passageiros na escada rolante.
+
+Os dados de entrada são separados nos vetores: tempoAtual e distanciaAtual. Assim sendo armazenados os valores de chegada e a distância de cada pessoa.
+
+
+#### Variáveis de controle:
+
+- mainIndice: Esta variável é usada como um índice para iterar pelos passageiros nos dados de entrada.
+
+- auxIndice: Esta variável parece ser declarada, mas não é usada no código fornecido.
+
+- chegadaEsperada: Esta variável armazena o tempo de chegada esperado no próximo andar.
+
+- tempoPendente: Este é um array que armazena os tempos de chegada dos passageiros que estão esperando para usar a escada rolante.
+
+- direcPendente: Este é um array que armazena as direções dos passageiros que estão esperando para usar a escada rolante.
+
+- passageirosRestantes: Esta variável armazena o número de passageiros que ainda estão esperando para usar a escada rolante.
+
+- ultimoInstante: Esta variável armazena o tempo final em que a escada rolante para.
+
+- direcao: Esta variável armazena a direção que a escada rolante está se movendo atualmente (para cima ou para baixo).
+
+- instante: Esta variável armazena o tempo atual.
+
+- pending: Esta é uma variável booleana que indica se há passageiros esperando para usar a escada rolante.
+
+### Lógica: 
+
+- Função escadaRolante(int* t, int* d, int n): Esta função simula a operação da escada rolante. Ela recebe três parâmetros: um array t representando os tempos de chegada dos passageiros, um array d representando a direção que cada passageiro deseja ir (para cima ou para baixo), e um inteiro n representando o número de passageiros. A função calcula o tempo final em que a escada rolante para e retorna esse tempo.
+
+- Função lerData(char* caminhoArquivo, int* t, int* d, int* n): Esta função lê dados de um arquivo. Ela recebe quatro parâmetros: uma string caminhoArquivo representando o caminho para o arquivo, dois arrays de inteiros t e d para armazenar os tempos de chegada e as direções dos passageiros, e um ponteiro de inteiro n para armazenar o número de passageiros. A função abre o arquivo, lê os dados e armazena-os nos arrays e no inteiro fornecidos.
+
+- Função main(): Esta é a função principal do programa. Ela primeiro pede ao usuário para inserir o caminho para o arquivo contendo os dados. Em seguida, ela chama a função lerData para ler os dados do arquivo. Depois disso, ela chama a função escadaRolante para simular a operação da escada rolante e obter o tempo final em que a escada rolante para. A função então imprime esse tempo. Finalmente, ela abre outro arquivo para ler algum resultado e imprime esse resultado.
