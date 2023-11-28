@@ -63,9 +63,6 @@ Os dados de entrada são separados nos vetores: tempoAtual e distanciaAtual. Ass
 - Função main(): Esta é a função principal do programa. Ela primeiro pede ao usuário para inserir o caminho para o arquivo contendo os dados. Em seguida, ela chama a função lerData para ler os dados do arquivo. Depois disso, ela chama a função escadaRolante para simular a operação da escada rolante e obter o tempo final em que a escada rolante para. A função então imprime esse tempo. Finalmente, ela abre outro arquivo para ler algum resultado e imprime esse resultado.
 
 
-
-
-
 ## Resultados (E_1, E_2, E_4, E_36 e E_50)
 
 ### Print com teste de input E_1 (Ele retorna o resultado e abaixo o resultado esperado, presente na pasta output).
